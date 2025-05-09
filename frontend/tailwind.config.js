@@ -8,3 +8,12 @@ module.exports = {
   },
   plugins: [],
 }
+
+module.exports = {
+  content: ["./src/**/*.{js,jsx}"],
+  darkMode: 'class', // REQUIRED for toggle to work
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
